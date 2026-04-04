@@ -1,0 +1,20 @@
+# 提供者端口（远程Git配置）
+server:
+  port: 8081
+
+# 应用名称
+spring:
+  application:
+    name: service-provider
+
+# Eureka客户端
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+# 测试动态刷新的配置（实验用）
+myconfig:
+  info: 这是来自Git配置中心的信息-dev环境
