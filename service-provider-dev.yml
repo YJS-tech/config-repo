@@ -11,4 +11,4 @@ eureka:
     prefer-ip-address: true
 # 必须包含该配置，避免占位符解析失败
 myconfig:
-  msg: 这是来自Git配置中心的信息-dev环境
+  msg: update
